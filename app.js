@@ -58,13 +58,41 @@
 // console.log('Listening on port 3000.....');
 
 
- 
 
 
 
 
+// const http = require('http');
+// const server = http.createServer((req, res)=> {
+//     if (req.url === '/') {
+//         res.write('Hellow Dinesh!!');
+//         res.end();
+//     }
+//     if (req.url === '/api/courses') {
+//         res.write(JSON.stringify([1, 2, 3, 4]));
+//         res.end();
+//     }
+// });
+
+// server.listen(8080);
+
+// console.log('Listening!!!');
 
 
+
+
+// var http = require('http');
+
+// http.createServer(function (req, res) {
+//   res.writeHead(200, {'Content-Type': 'text/html'});
+//   res.write('<form action="fileupload" method="post" enctype="multipart/form-data">');
+//   res.write('<input type="file" name="filetoupload"><br>');
+//   res.write('<input type="submit">');
+//   res.write('</form>');
+//   return res.end();
+// }).listen(8080);
+
+// // console.log('What?');
 
 
 
