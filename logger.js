@@ -15,4 +15,8 @@
 
 // module.exports = Logger;
 
+function logger(req, res) {
+    console.log('Working...!');
+};
 
+module.exports = logger;
